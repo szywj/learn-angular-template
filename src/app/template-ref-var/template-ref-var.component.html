@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Variable Reference</h3>
+  </div>
+  <div class="panel-body">
+    <input #formInput>
+    <p>{{formInput.value}}</p>
+    <button class="btn btn-success" (click)="sayHello(formInput.value)">Click Me!</button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">The Usage of ngSwitch</h3>
+    </div>
+    <div class="panel-body">
+      <div [ngSwitch]="status">
+        <p *ngSwitchCase="'Downloading'">Downloading...</p>
+        <p *ngSwitchCase="'Loading'">Loading...</p>
+        <p *ngSwitchDefault>System Malfunction</p>
+      </div>
+    </div>
+  </div>

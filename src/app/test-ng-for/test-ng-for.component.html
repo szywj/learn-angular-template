@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">The Usage of ngFor</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <ul>
+        <li *ngFor='let animal of animals; let i=index'>
+          {{i+1}} - {{animal.name}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

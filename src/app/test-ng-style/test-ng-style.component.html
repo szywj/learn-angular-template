@@ -1,0 +1,9 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">The Usage of ngStyle</div>
+  <div class="panel-body">
+    <div [ngStyle]="currentStyles">
+      Using ngStyle to batch change inline style.
+    </div>
+    <button class="btn btn-success" (click)="setCurrentStyles()">Set</button>
+  </div>
+</div>
